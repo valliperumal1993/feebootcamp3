@@ -1,43 +1,26 @@
-.a{
+.a {
   margin: 0 auto;
   width: 450px;
   height: 270px;
   padding: 20px;
   background-color: #f3f3f3;
 }
-.c{
+.c {
   margin: 0 auto;
   width: 300px;
   height: 170px;
   padding: 20px;
   border-style: solid;
-  border-color: #ff0000
+  //Missing semicolon at the end
+  border-color: #ff0000;
 }
-.in{
+.in {
 	float: left;
 }
+//Multiple selectors having same css rules can be seperated by comma 
+//class and id selectors names needs to be meaningful
+//Proper indentation and spacing is necessary
 
-#d1{
-display: inline-block;
-}
-
-#d2
-{
-display: inline-block;
-}
-#t1
-{
-display: inline-block;
-}
-#div1{
-display: inline-block;
-}
-
-#div2
-{
-display: inline-block;
-}
-#div3
-{
-display: inline-block;
+#d1, #d2, #t1, #div1, #div2, #div3{
+  display: inline-block;
 }

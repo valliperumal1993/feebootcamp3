@@ -19,16 +19,17 @@
             </a></h1>
           </div>
           <!-- Utilities -->
+<!--Proper indentation needed -->
           <div class="col4">
                 <div>
-                <select class ="sel1"> 
-  <option> profile</option>
-  <option> products</option>
- <option> logout</option>
-</select>       
+                  <select class ="sel1"> 
+                    <option> profile</option>
+                    <option> products</option>
+                    <option> logout</option>
+                  </select>       
                 </div>
-              </li>
-            </ul>
+              </li> <!--Left over tag to be removed -->
+            </ul> <!--Left over tag to be removed -->
           </div>
         </div>
       </div>
@@ -54,40 +55,41 @@
       </nav> -->
     </header>
     <div id="body" class="ui-sass-luna">
-      <div class="container">
-           
+      <div class="container">           
         <div class="a">
         
           <h2>Sign in securely</h2>
-       <label style="display:inline-block"> Username:</label>
+          <label style="display:inline-block"> Username:</label>
             <br/>
             <input style="width:100%;" type="text" name="un"/>
             <br/>
             <div>
-       <div >    
-        <label style="display:inline-block"> Password:</label>
-          <a style="float:right;" href="#">Forget pasword?</a>
-       </div>
-       <input style="width:100%;" type="password" name="pwd"/>
-       </div>
-       <div>
-<div>
-  <div style="display:inline-block">
- <input type="checkbox" name"chk"/>
-    <label style="display:inline">Remember me</label></div>
-       <button style="float:right;" class="primary" >sign in</button>
-       </div>
-   </div>
-  </div>
+               <div >    
+                <label style="display:inline-block"> Password:</label>
+                  <a style="float:right;" href="#">Forget pasword?</a>
+               </div>
+               <input style="width:100%;" type="password" name="pwd"/>
+            </div>
+           <div>
+              <div>
+<!--Avoid using inline css styles and move these styles to css file for easy maintainence and also css file will be cached on browser side . -->
+                <div style="display:inline-block"> 
+                  <input type="checkbox" name"chk"/>
+                  <label style="display:inline">Remember me</label>
+                </div>
+                <button style="float:right;" class="primary" >sign in</button>
+              </div>
+          </div>
+        </div>
   <br/>
-<div class="b">
-<center>
-<img src="holiday.png">
-</center>
-<center>
-<h3 style="display:inline-block">Happy Holidays!!</h3>
-  </center>
-</div>
+    <div class="b">
+      <center>
+        <img src="holiday.png">
+      </center>
+      <center>
+        <h3 style="display:inline-block">Happy Holidays!!</h3>
+      </center>
+    </div>
     <footer id="footer">
       <div class="container">
         <div id="copyright">
@@ -98,43 +100,47 @@
         </div>
       </div>
     </footer>
-        <script src="crux/crux/js/libs/jquery.js"></script>
-        <script src="crux/crux/js/libs/jquery-ui.custom.js"></script>
-        <script src="crux/crux/js/libs/handlebars.js"></script>
-        <script src="crux/crux/js/libs/lodash.underscore.js"></script>
-        <script src="crux/crux/js/libs/moment.js"></script>
-        <script src="crux/crux/js/modernizr/modernizr.custom.js"></script>
-        <script src="crux/crux/js/modernizr/cs.support.js"></script>
-        <script src="crux/crux/js/libs/spin.js"></script>
-        <script src="crux/crux/js/common/cs.core.js"></script>
-        <script src="crux/crux/js/common/cs.helpers.js"></script>
-        <script src="crux/crux/js/common/cs.jquery.js"></script>
-        <script src="crux/crux/js/common/cs.logo.js"></script>
-        <script src="crux/crux/js/common/cs.visibility.js"></script>
-        <script src="crux/crux/js/common/jquery.spin.js"></script>
-        <script src="crux/crux/js/common/cs.queue.js"></script>
-        <script src="crux/crux/js/widgets/cs.base.js"></script>
-        <script src="crux/crux/js/widgets/cs.popover.js"></script>
-        <script src="crux/crux/js/widgets/cs.ellipsr.js"></script>
-        <script src="crux/crux/js/widgets/cs.loadr.js"></script>
-        <script src="crux/crux/js/widgets/cs.selectr.js"></script>
-        <script src="app/js/main.js"></script>
+    <script src="crux/crux/js/libs/jquery.js"></script>
+    <script src="crux/crux/js/libs/jquery-ui.custom.js"></script>
+    <script src="crux/crux/js/libs/handlebars.js"></script>
+    <script src="crux/crux/js/libs/lodash.underscore.js"></script>
+    <script src="crux/crux/js/libs/moment.js"></script>
+    <script src="crux/crux/js/modernizr/modernizr.custom.js"></script>
+    <script src="crux/crux/js/modernizr/cs.support.js"></script>
+    <script src="crux/crux/js/libs/spin.js"></script>
+    <script src="crux/crux/js/common/cs.core.js"></script>
+    <script src="crux/crux/js/common/cs.helpers.js"></script>
+    <script src="crux/crux/js/common/cs.jquery.js"></script>
+    <script src="crux/crux/js/common/cs.logo.js"></script>
+    <script src="crux/crux/js/common/cs.visibility.js"></script>
+    <script src="crux/crux/js/common/jquery.spin.js"></script>
+    <script src="crux/crux/js/common/cs.queue.js"></script>
+    <script src="crux/crux/js/widgets/cs.base.js"></script>
+    <script src="crux/crux/js/widgets/cs.popover.js"></script>
+    <script src="crux/crux/js/widgets/cs.ellipsr.js"></script>
+    <script src="crux/crux/js/widgets/cs.loadr.js"></script>
+    <script src="crux/crux/js/widgets/cs.selectr.js"></script>
+    <script src="app/js/main.js"></script>
 
-<script type="text/javascript">
-$(document).ready(function(){
-$('.sel1').selectr({
-select:function(e,sel1){
-alert("hhu");
-}
-});
-});
+    <script type="text/javascript">
+//Need to maintain indentation in all files
+      $(document).ready(function(){
+        $('.sel1').selectr({
+          select:function(e,sel1){
+//Avoid using alerts and console.log in prod code
+            alert("hhu");
+          }
+        });
+      });
 
-$('input').popover({
-content: "hello"
-});
+      $('input').popover({
+        content: "hello"
+      });
 
-$('button').on('click',function(e){$('input').popover('show');})
+      $('button').on('click',function(e){
+        $('input').popover('show');
+      })
 
-</script>
-</body>
+    </script>
+  </body>
 </html>
